@@ -1,0 +1,23 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    vertical-align: middle;
+}
+
+#logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display:none;
+}
+
+#logo {
+    margin-top: calc(50% - 600px);
+    font-family: 'Source Code Pro', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
