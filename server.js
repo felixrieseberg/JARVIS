@@ -13,19 +13,19 @@ var config = {};
     config.transcribeCallback = 'http://hellojarvis.azurewebsites.net/command';
     config.recordAction = 'http://hellojarvis.azurewebsites.net/recorded';
     config.init = 'http://hellojarvis.azurewebsites.net/init';
-    config.toPhone = '+13477668781';
-    config.toMail = 'kunal.batra@sendgrid.com';
+    config.toPhone = '+12345678910';
+    config.toMail = 'test@sendgrid.com';
     config.sendGridUser = 'felixrieseberg';
-    config.sendGridPass = 'simplepass55!';
+    config.sendGridPass = 'password!';
 
 var app = express();
 app.use(express.bodyParser());
 
 // Twilio Setup
-var client = require('twilio')('AC438dba1590f2757677556763edf8cf3d', '4aea92d84380c717073d42effeff31c7');
+var client = require('twilio')('AC438dba121590f27573677556763edf8cf3d', '4aea292d84380c7127073d42effeff31c7');
 
 // Ninja Setup
-var ninja = ninjaBlocks.app({user_access_token:'jt0N6ClL6m9UFVP5V7yDiE5kx0gUvXA5dTlNSlRVwkA'});
+var ninja = ninjaBlocks.app({user_access_token:'jt0N6ClL63m9UFVP5V7yDiE25kx0gUvXA5dTlNSlRVwkA'});
 var ninjaReadings = {};
 getReadings();
 
