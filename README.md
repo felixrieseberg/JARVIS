@@ -9,5 +9,10 @@ your home.
 
 The version released here is heavily scripted an merely demos the capabilities, missing an effective routing mechanism.
 
+## APIs used
+- Twilio
+- NinjaBlocks
+- SendGrid
+
 ## Interview and Article
 - techcrunch.com/2013/04/28/jarvis-is-a-personal-assistant-that-goes-beyond-siri-to-embrace-the-connected-home/
